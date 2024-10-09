@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube Layout Clone</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Add margin between icons and text */
+        .sidebar a i {
+            margin-right: 10px;
+        }
+        .search-bar button i {
+            margin-right: 5px;
+        }
+    </style>
 </head>
 <body>
 
@@ -14,7 +24,7 @@
         </div>
         <div class="search-bar">
             <input type="text" placeholder="Search">
-            <button>Search</button>
+            <button><i class="fas fa-search"></i> Search</button>
         </div>
         <div class="profile">
             <img src="main/profile-pic.png" alt="Profile" width="40">
@@ -23,22 +33,22 @@
 
     <div class="container">
         <nav class="sidebar">
-            <a href="#" class="active">Главная</a>
-            <a href="#">Shorts</a>
-            <a href="#">Подписки</a>
+            <a href="#" class="active"><i class="fas fa-home"></i> Главная</a>
+            <a href="#"><i class="fas fa-video"></i> Shorts</a>
+            <a href="#"><i class="fas fa-user-friends"></i> Подписки</a>
             <h3>Вы</h3>
-            <a href="#">Мой канал</a>
-            <a href="#">История</a>
-            <a href="#">Плейлисты</a>
-            <a href="#">Ваши видео</a>
-            <a href="#">Смотреть позже</a>
-            <a href="#">Понравившиеся</a>
+            <a href="#"><i class="fas fa-user"></i> Мой канал</a>
+            <a href="#"><i class="fas fa-history"></i> История</a>
+            <a href="#"><i class="fas fa-list"></i> Плейлисты</a>
+            <a href="#"><i class="fas fa-video"></i> Ваши видео</a>
+            <a href="#"><i class="fas fa-clock"></i> Смотреть позже</a>
+            <a href="#"><i class="fas fa-thumbs-up"></i> Понравившиеся</a>
 
             <h3>Подписки</h3>
-            <a href="https://www.youtube.com/@kanepixels" target="_blank">Kane Pixels</a>
-            <a href="https://www.youtube.com/@DARKPHIL" target="_blank">DARK~PHIL</a>
-            <a href="https://www.youtube.com/@NASA" target="_blank">NASA</a>
-            <a href="https://www.youtube.com/@factorio3375" target="_blank">Factorio</a>
+            <a href="https://www.youtube.com/@kanepixels" target="_blank"><i class="fas fa-user"></i> Kane Pixels</a>
+            <a href="https://www.youtube.com/@DARKPHIL" target="_blank"><i class="fas fa-user"></i> DARK~PHIL</a>
+            <a href="https://www.youtube.com/@NASA" target="_blank"><i class="fas fa-user"></i> NASA</a>
+            <a href="https://www.youtube.com/@factorio3375" target="_blank"><i class="fas fa-user"></i> Factorio</a>
         </nav>
 
         <main class="content">
